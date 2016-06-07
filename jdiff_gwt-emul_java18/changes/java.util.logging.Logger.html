@@ -57,14 +57,6 @@ Class java.util.logging.<A HREF="https://docs.oracle.com/javase/8/docs/api/java/
 </TR>
 <TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
   <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.config_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#config(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>config</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a CONFIG message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
   <A NAME="java.util.logging.Logger.entering_added(java.lang.String, java.lang.String)"></A>
   <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#entering(java.lang.String, java.lang.String)" target="_top"><tt>entering</tt></A>(<code>String,</nobr> String<nobr><nobr></code>)</nobr>
   </TD>
@@ -97,30 +89,6 @@ Class java.util.logging.<A HREF="https://docs.oracle.com/javase/8/docs/api/java/
   <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#exiting(java.lang.String, java.lang.String, java.lang.Object)" target="_top"><tt>exiting</tt></A>(<code>String,</nobr> String<nobr>,</nobr> Object<nobr><nobr></code>)</nobr>
   </TD>
   <TD VALIGN="TOP">Log a method return, with result object.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.fine_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#fine(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>fine</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a FINE message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.finer_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#finer(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>finer</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a FINER message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.finest_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#finest(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>finest</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a FINEST message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
 </TR>
 <TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
   <TD VALIGN="TOP" WIDTH="25%">
@@ -168,14 +136,6 @@ Class java.util.logging.<A HREF="https://docs.oracle.com/javase/8/docs/api/java/
 </TR>
 <TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
   <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.info_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#info(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>info</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a INFO message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
   <A NAME="java.util.logging.Logger.log_added(java.util.logging.Level, java.lang.String, java.lang.Object)"></A>
   <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log(java.util.logging.Level, java.lang.String, java.lang.Object)" target="_top"><tt>log</tt></A>(<code>Level,</nobr> String<nobr>,</nobr> Object<nobr><nobr></code>)</nobr>
   </TD>
@@ -187,21 +147,6 @@ Class java.util.logging.<A HREF="https://docs.oracle.com/javase/8/docs/api/java/
   <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log(java.util.logging.Level, java.lang.String, java.lang.Object[])" target="_top"><tt>log</tt></A>(<code>Level,</nobr> String<nobr>,</nobr> Object[]<nobr><nobr></code>)</nobr>
   </TD>
   <TD VALIGN="TOP">Log a message, with an array of object arguments.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.log_added(java.util.logging.Level, java.lang.Throwable, java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log(java.util.logging.Level, java.lang.Throwable, java.util.function.Supplier<java.lang.String>)" target="_top"><tt>log</tt></A>(<code>Level,</nobr> Throwable<nobr>,</nobr> Supplier&lt;String&gt;<nobr><nobr></code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a lazily constructed message, with associated Throwable information.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.log_added(java.util.logging.Level, java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#log(java.util.logging.Level, java.util.function.Supplier<java.lang.String>)" target="_top"><tt>log</tt></A>(<code>Level,</nobr> Supplier&lt;String&gt;<nobr><nobr></code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a message, which is only to be constructed if the logging level
- is such that the message will actually be logged.</TD>
 </TR>
 <TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
   <TD VALIGN="TOP" WIDTH="25%">
@@ -315,26 +260,10 @@ Class java.util.logging.<A HREF="https://docs.oracle.com/javase/8/docs/api/java/
 </TR>
 <TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
   <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.severe_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#severe(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>severe</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a SEVERE message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
   <A NAME="java.util.logging.Logger.throwing_added(java.lang.String, java.lang.String, java.lang.Throwable)"></A>
   <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#throwing(java.lang.String, java.lang.String, java.lang.Throwable)" target="_top"><tt>throwing</tt></A>(<code>String,</nobr> String<nobr>,</nobr> Throwable<nobr><nobr></code>)</nobr>
   </TD>
   <TD VALIGN="TOP">Log throwing an exception.</TD>
-</TR>
-<TR BGCOLOR="#FFFFFF" CLASS="TableRowColor">
-  <TD VALIGN="TOP" WIDTH="25%">
-  <A NAME="java.util.logging.Logger.warning_added(java.util.function.Supplier<java.lang.String>)"></A>
-  <nobr><code>void</code>&nbsp;<A HREF="https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html#warning(java.util.function.Supplier<java.lang.String>)" target="_top"><tt>warning</tt></A>(<code>Supplier&lt;String&gt;</code>)</nobr>
-  </TD>
-  <TD VALIGN="TOP">Log a WARNING message, which is only to be constructed if the logging
- level is such that the message will actually be logged.</TD>
 </TR>
 </TABLE>
 &nbsp;
